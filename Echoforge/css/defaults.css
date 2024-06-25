@@ -16,9 +16,12 @@
   --fw-reg: 400;
   --fw-bold: 700;
 
-  --color-light: #fff;
-  --color-dark: #303030;
-  --color-accent: #9d9b80;
+  --color-dark: #1d2124;
+  --color-light: #cdac9f;
+  --color-secondary: #3a4b55;
+  --color-accent1: #826648;
+  --color-accent2: #68808a;
+  --color-white: #fff;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
