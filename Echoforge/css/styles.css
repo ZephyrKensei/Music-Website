@@ -1,55 +1,68 @@
+/* HERO HEADER */
 .hero-header,
 .hero-section {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
 }
-	
+
 .title {
   padding: 0 2em;
   /* backdrop-filter: invert(80%); */
   /* backdrop-filter: sepia(90%); */
 }
 
+.title h1 {
+  backdrop-filter: invert(80%);
+  padding: 25px;
+  border: solid 2px var(--color-white);
+}
+.title h2 {
+  font-weight: 400;
+  color: var(--color-white);
+}
+
 .cover-img {
-  background-image: url('/Echoforge/imgs/cover-album.png');
+  background-image: url("/Echoforge/imgs/cover-album.png");
   background-position: center;
   background-size: cover;
   /* filter: blur(2px); */
 }
 
+/* NAV */
 .nav-bar {
   position: sticky;
   top: 0;
 }
 
 .nav {
-	display: flex;
-	width: 100%;
-	height: 70px;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-	background: var(--color-accent2);
+  display: flex;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background: var(--color-accent2);
 }
 
 .nav-tab {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex: 1;
-	color: var(--color-accent);
-	letter-spacing: 0.1rem;
-	transition: all 0.5s ease;
-	font-size: 0.8rem;
-	&:hover {
-		color: white;
-		background: var(--color-secondary);
-		transition: all 0.5s ease;
-	}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  color: var(--color-accent);
+  letter-spacing: 0.1rem;
+  transition: all 0.5s ease;
+  font-size: 0.8rem;
+  &:hover {
+    color: white;
+    background: var(--color-secondary);
+    transition: all 0.5s ease;
+  }
 }
 
+/* FONT AWESOME ICONS */
 .social-list__link:hover {
   opacity: 0.7;
   text-decoration: underline;
@@ -59,6 +72,12 @@
   list-style: none;
   display: flex;
   justify-content: center;
+  align-items: center;
+  color: var(--color-white);
+}
+
+span {
+  padding: 0 1em;
 }
 
 .social-list__item {
@@ -67,5 +86,7 @@
 
 .social-list__link {
   color: var(--color-white);
-  padding: 0.5em;
+  padding: 0.25em;
 }
+
+/* HERO SECTION */
