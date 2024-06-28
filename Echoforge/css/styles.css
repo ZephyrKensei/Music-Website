@@ -3,7 +3,6 @@
 .hero-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   height: 100vh;
   text-align: center;
@@ -11,13 +10,14 @@
 
 .title {
   padding: 0 2em;
+  margin-top: 6em;
   /* backdrop-filter: invert(80%); */
   /* backdrop-filter: sepia(90%); */
 }
 
 .title h1 {
   backdrop-filter: invert(80%);
-  padding: 25px;
+  padding: 20px 70px;
   border: solid 2px var(--color-white);
 }
 .title h2 {
@@ -92,7 +92,7 @@ span {
 
 /* ABOUT SECTION */
 .about-title {
-  margin-top: 25em;
+  margin-top: 3em;
 }
 
 .about-img {
