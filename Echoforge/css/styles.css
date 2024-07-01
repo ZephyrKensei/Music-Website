@@ -91,10 +91,6 @@ span {
 }
 
 /* ABOUT SECTION */
-.about-title {
-  margin-top: 3em;
-}
-
 .about-img {
   height: 35em;
   transform: translate(-10em, 0%);
@@ -122,6 +118,28 @@ span {
   font-weight: bold;
   letter-spacing: 2px;
 }
+
+/* SHOWS */
+.shows {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.section-p {
+  margin: -1em 32em 4em 0;
+}
+
+table {
+  text-align: left;
+  width: 80%;
+}
+tr, td {
+  border-bottom: 2px solid rgba(255,255,255, 0.3);
+  padding: 15px;
+}
+
+
+
 
 /* GIF */
 /* .gif {
