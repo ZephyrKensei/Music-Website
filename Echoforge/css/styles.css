@@ -144,7 +144,7 @@ td {
 .cards {
   display: grid;
   grid-auto-flow: dense;
-  grid-auto-rows: 200px auto auto;
+  grid-auto-rows: 260px auto auto;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 20ch), 1fr));
   gap: 1em;
   width: min(100ch, calc(100% - 2rem));
@@ -152,7 +152,7 @@ td {
 }
 
 .card {
-  background-color: #f9f6ef;
+  background-color: var(--color-white);
   display: grid;
   grid-row: span 3;
   grid-template-rows: subgrid;
@@ -164,13 +164,18 @@ td {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    object-position: 50% 80%;
   }
 
-  h3,
+  .card-title,
   .actions {
     padding-inline: 0.5em;
     margin: 0;
+    font-family: "Norse", Verdana, sans-serif;
+  }
+
+  .card-title {
+    font-size: 1.5em;
+    letter-spacing: 0.25em;
   }
 
   .actions {
