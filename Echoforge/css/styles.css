@@ -177,7 +177,7 @@ td {
     display: flex;
     justify-content: space-between;
     padding-bottom: 1em;
-    color: hsl(200, 78%, 41%);
+    color: var(--color-accent1);
     button {
       all: unset;
       animation: 0.3s ease;
@@ -202,7 +202,7 @@ td {
 
 .big {
   grid-column: 1 / -1;
-  grid-row: 4 / 7;
+  grid-row: 4 / 5;
   grid-template-rows: auto 1fr;
   .notes {
     padding: 0.5em;
@@ -213,8 +213,8 @@ td {
 }
 
 /* GIF */
-/* .gif {
+.gif {
   background-image: url("/Echoforge/imgs/cover-vid.gif");
   background-position: center;
   background-size: cover;
-} */
+}
