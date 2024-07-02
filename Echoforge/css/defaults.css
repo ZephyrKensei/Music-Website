@@ -86,22 +86,3 @@ h3 {
 h4 {
   font-size: var(--fs-h4);
 }
-
-/* Buttons */
-.btn {
-  display: inline-block;
-  padding: 1em 2.5em;
-  background: var(--color-accent1);
-  color: var(--color-light);
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: var(--fw-bold);
-  transition: transform 200ms ease-in-out;
-}
-
-.btn:hover {
-  transform: scale(1.1);
-}
