@@ -131,15 +131,86 @@ span {
 
 table {
   text-align: left;
-  width: 80%;
+  width: 70%;
+  margin: 0 auto;
 }
-tr, td {
-  border-bottom: 2px solid rgba(255,255,255, 0.3);
+tr,
+td {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
   padding: 15px;
 }
 
+/* MERCH */
+.cards {
+  display: grid;
+  grid-auto-flow: dense;
+  grid-auto-rows: 200px auto auto;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20ch), 1fr));
+  gap: 1em;
+  width: min(100ch, calc(100% - 2rem));
+  margin: 0 auto;
+}
 
+.card {
+  background-color: #f9f6ef;
+  display: grid;
+  grid-row: span 3;
+  grid-template-rows: subgrid;
+  border: 1px solid #0002;
+  box-shadow: 0.1em 0.1em 0.5em #0003;
+  border-radius: 0.5em;
+  overflow: hidden;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 80%;
+  }
 
+  h3,
+  .actions {
+    padding-inline: 0.5em;
+    margin: 0;
+  }
+
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em;
+    color: hsl(200, 78%, 41%);
+    button {
+      all: unset;
+      animation: 0.3s ease;
+      padding: 0.1em 0.5em;
+      border: 1px solid transparent;
+      border-radius: 0.3em;
+      cursor: pointer;
+      &:hover {
+        border: 1px solid currentcolor;
+      }
+      &:active {
+        background-color: hsl(200, 78%, 41%);
+        color: #f9f3ee;
+        border: 1px solid #000;
+      }
+    }
+    > * {
+      padding: 0.1em 0.5em;
+    }
+  }
+}
+
+.big {
+  grid-column: 1 / -1;
+  grid-row: 4 / 7;
+  grid-template-rows: auto 1fr;
+  .notes {
+    padding: 0.5em;
+  }
+  h3 {
+    padding-top: 0.5em;
+  }
+}
 
 /* GIF */
 /* .gif {
