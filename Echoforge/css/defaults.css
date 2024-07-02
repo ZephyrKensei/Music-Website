@@ -87,13 +87,6 @@ h4 {
   font-size: var(--fs-h4);
 }
 
-/* Sections */
-.section-title {
-  margin-top: 3em;
-  margin-right: 15em;
-  letter-spacing: 0.25em;
-}
-
 /* Buttons */
 .btn {
   display: inline-block;
