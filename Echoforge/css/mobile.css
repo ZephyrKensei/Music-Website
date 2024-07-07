@@ -57,4 +57,7 @@
 }
 
 @media screen and (min-width: 992px) {
+  .cards {
+    max-width: none;
+  }
 }
