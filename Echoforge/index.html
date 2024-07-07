@@ -45,76 +45,71 @@
         </div>
       </section>
       <!-- Nav -->
-      <section class="nav-bar">
-        <button class="nav-toggle" aria-label="toggle navigation">
-          <span class="hamburger"></span>
-        </button>
-        <div class="nav">
-          <!-- Site Nav -->
-          <a class="nav-tab" href="#tab-home">HOME</a>
-          <a class="nav-tab" href="#tab-bio">BIO</a>
-          <a class="nav-tab" href="#tab-shows">SHOWS</a>
-          <a class="nav-tab" href="#tab-merch">MERCH</a>
-          <!-- Socials -->
-          <ul class="social-list">
-            <h4 class="follow">FOLLOW <span>|</span></h4>
-            <li class="social-list__item">
-              <a
-                class="social-list__link"
-                href="https:www.spotify.com"
-                target="_blank"
-              >
+      <header class="header" id="header">
+        <nav class="nav">
+          <div class="nav_menu" id="nav-menu">
+            <ul class="nav_list">
+              <li class="nav_item">
+                <a href="#tab-home" class="nav_link">
+                  <i class="fa-solid fa-arrow-right"></i>
+                  <span>HOME</span>
+                </a>
+              </li>
+              <li class="nav_item">
+                <a href="#tab-bio" class="nav_link">
+                  <i class="fa-solid fa-arrow-right"></i>
+                  <span>BIO</span>
+                </a>
+              </li>
+              <li class="nav_item">
+                <a href="#tab-shows" class="nav_link">
+                  <i class="fa-solid fa-arrow-right"></i>
+                  <span>SHOWS</span>
+                </a>
+              </li>
+              <li class="nav_item">
+                <a href="#tab-merch" class="nav_link">
+                  <i class="fa-solid fa-arrow-right"></i>
+                  <span>MERCH</span>
+                </a>
+              </li>
+            </ul>
+
+            <!-- Close button -->
+            <div class="nav_close" id="nav-close">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+
+            <!-- Socials -->
+            <div class="nav_social">
+              <h4 class="follow">FOLLOW <span>|</span></h4>
+              <a class="nav_social-link" href="https:www.spotify.com" target="_blank">
                 <i class="fa-brands fa-spotify"></i>
               </a>
-            </li>
-            <li class="social-list__item">
-              <a
-                class="social-list__link"
-                href="https:www.soundcloud.com"
-                target="_blank"
-              >
+              <a class="nav_social-link" href="https:www.soundcloud.com" target="_blank">
                 <i class="fa-brands fa-soundcloud"></i>
               </a>
-            </li>
-            <li class="social-list__item">
-              <a
-                class="social-list__link"
-                href="https:www.twitter.com"
-                target="_blank"
-              >
+              <a class="nav_social-link" href="https:www.twitter.com" target="_blank">
                 <i class="fa-brands fa-twitter"></i>
               </a>
-            </li>
-            <li class="social-list__item">
-              <a
-                class="social-list__link"
-                href="https:www.facebook.com"
-                target="_blank"
-              >
+              <a class="nav_social-link" href="https:www.facebook.com" target="_blank">
                 <i class="fa-brands fa-facebook-f"></i>
               </a>
-            </li>
-            <li class="social-list__item">
-              <a
-                class="social-list__link"
-                href="https:www.instagram.com"
-                target="_blank"
-              >
+              <a class="nav_social-link" href="https:www.instagram.com" target="_blank">
                 <i class="fa-brands fa-instagram"></i>
               </a>
-            </li>
-            <li class="social-list__item">
-              <a
-                class="social-list__link"
-                href="https:www.youtube.com"
-                target="_blank"
-              >
+              <a class="nav_social-link" href="https:www.youtube.com" target="_blank">
                 <i class="fa-brands fa-youtube"></i>
               </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+            </div>
+          </div>
+
+          <!-- Toggle button -->
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+      </header>
 
       <!-- Main -->
       <section class="hero-section" id="tab-bio">
@@ -281,5 +276,6 @@
         </ul>
       </footer>
     </div>
+    <script src="/Echoforge/js/app.js" type="module"></script>
   </body>
 </html>
