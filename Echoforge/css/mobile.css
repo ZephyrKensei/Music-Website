@@ -29,6 +29,31 @@
 }
 
 @media screen and (min-width: 768px) {
+  .section-title {
+    margin: 4rem auto;
+  }
+  .about-img {
+    transform: translate(-6em, 0%);
+  }
+  .about-container {
+    transform: translate(9em, -90%);
+  }
+  .section-p,
+  table {
+    margin: 1.25rem auto;
+  }
+  table {
+    display: block;
+    max-width: fit-content;
+    margin: 1.25rem auto;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .cards {
+    max-width: fit-content;
+    margin: 1.25rem auto;
+    overflow-x: auto;
+  }
 }
 
 @media screen and (min-width: 992px) {
