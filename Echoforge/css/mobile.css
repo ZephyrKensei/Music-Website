@@ -1,13 +1,30 @@
 @media screen and (max-width: 480px) {
   .section-title {
-    margin: 1em auto;
+    margin: 1rem auto;
   }
   .about-img {
     transform: none;
   }
   .about-container {
+    max-width: 400px;
     transform: translate(0em, -60%);
     text-align: center;
+  }
+  .section-p,
+  table {
+    margin: 1.25rem auto;
+  }
+  table {
+    display: block;
+    max-width: fit-content;
+    margin: 1.25rem auto;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .cards {
+    max-width: fit-content;
+    margin: 1.25rem auto;
+    overflow-x: auto;
   }
 }
 
