@@ -23,7 +23,7 @@
 }
 
 .cover-img {
-  background-image: url("/Echoforge/imgs/cover-album-new.png");
+  background-image: url("/assets/imgs/cover-album-new.png");
   background-position: center;
   background-size: cover;
 }

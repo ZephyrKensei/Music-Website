@@ -1,6 +1,6 @@
 @font-face {
   font-family: Norse;
-  src: url("/Echoforge/norse-fonts/NorseBold-2Kge.otf") format("opentype");
+  src: url("/assets/norse-fonts/NorseBold-2Kge.otf") format("opentype");
 }
 
 :root {
