@@ -1,6 +1,6 @@
 @media screen and (max-width: 480px) {
   .section-title {
-    margin: 1rem auto;
+    margin: 6rem auto 2rem auto;
   }
   .about-img {
     transform: none;
@@ -30,7 +30,7 @@
 
 @media screen and (min-width: 768px) {
   .section-title {
-    margin: 4rem auto;
+    margin: 8rem auto 2rem auto;
   }
   .about-img {
     transform: translate(-6em, 0%);
